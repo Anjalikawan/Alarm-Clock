@@ -1,0 +1,51 @@
+body, .demo, #timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body{
+    padding: 10px 10px;
+    min-height: 100vh;
+    background:aquamarine;
+  }
+  .demo{
+    width: 350px;
+    padding: 20px 20px 28px;
+    background: #fff;
+    border-radius: 12px;
+    flex-direction: column;
+  }
+  .demo img{
+    max-width: 80px;
+  }
+  .demo h1{
+    font-size: 38px;
+    margin: 30px 0;
+  }
+  .demo #timer{
+    width: 100%;
+    justify-content: space-between;
+  }
+ 
+  #timer select{
+    width: 110px;
+    height: 30px;  
+    font-size: 15px;
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    cursor: grabbing;
+   
+  }
+
+  .demo button{
+    width: 100%;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #42a9b8;
+  }
